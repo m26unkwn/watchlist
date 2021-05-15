@@ -11,13 +11,13 @@ export const Header = () => {
           </div>
           <ul className='nav-links'>
             <li>
-              <Link to='/'>WatchList</Link>
+              <Link to='/watchlist'>WatchList</Link>
             </li>
             <li>
               <Link to='/watched'>watched</Link>
             </li>
             <li>
-              <Link to='/add' className='btn btn-main'>
+              <Link to='/' className='btn btn-main'>
                 + Add
               </Link>
             </li>
