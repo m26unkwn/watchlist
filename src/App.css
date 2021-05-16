@@ -144,7 +144,6 @@ header .nav-links li:last-child {
 
 .result-card {
   display: flex;
-  flex-direction: column;
   margin-bottom: 20px;
 }
 
