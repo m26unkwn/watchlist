@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import debounce from "../DebounceHelp";
 import { ResultCard } from "./ResultCard";
+import { Link } from "react-router-dom";
 
 const Add = () => {
   // const [name, setName] = useState("");
@@ -44,6 +45,16 @@ const Add = () => {
           )}
         </div>
       </div>
+      <h2 className='no-movies' style={{ textAlign: "center" }}>
+        Search Movies you want to watch and add to <br />
+        <i
+          className='fa-fw fa fa-long-arrow-alt-down'
+          style={{ marginTop: "2rem" }}></i>
+        <br />
+        <Link to='/watchlist' style={{ display: "inline-block" }}>
+          <h1>watchlist</h1>
+        </Link>
+      </h2>
     </div>
   );
 };
