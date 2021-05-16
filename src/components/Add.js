@@ -45,7 +45,7 @@ const Add = () => {
           )}
         </div>
       </div>
-      {!results && (
+      {results.length === 0 && (
         <h2 className='no-movies' style={{ textAlign: "center" }}>
           Search Movies you want to watch and add to <br />
           <i
