@@ -42,8 +42,8 @@ export const GlobalProvider = (props) => {
     dispatch({ type: "REMOVE_FROM_WATCHED", payload: id });
   };
 
-  const moveToWatchlist = (id) => {
-    dispatch({ type: "MOVE_TO_WATCHED", payload: id });
+  const moveToWatchlist = (movie) => {
+    dispatch({ type: "MOVE_TO_WATCHLIST", payload: movie });
   };
 
   return (

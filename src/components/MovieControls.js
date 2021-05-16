@@ -25,10 +25,8 @@ const MovieControls = ({ movie, type }) => {
       )}
       {type === "watched" && (
         <>
-          <button
-            className='ctrl-btn'
-            onClick={() => moveToWatchlist(movie.id)}>
-            <i className='fa-fw fa fa-eye'></i>
+          <button className='ctrl-btn' onClick={() => moveToWatchlist(movie)}>
+            <i className='fa-fw fa fa-list'></i>
           </button>
           <button
             className='ctrl-btn'
